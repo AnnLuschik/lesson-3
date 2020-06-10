@@ -15,23 +15,23 @@ header {
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 36px;
     font-weight: 400;
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
     color: #212121;
 }
 
 hr {
     width: 64px;
     height: 2px;
+    margin: 30px auto;
     border: none;
     background: #FF8030;
-    margin: 30px auto;
 }
 
 h4 {
-    font-size: 14px;
     font-weight: 400;
+    font-size: 14px;
     color: #86878B;
 }
 /* Main content
@@ -50,9 +50,9 @@ h4 {
 .icon {
     width: 70px;
     height: 70px;
+    margin: 0 auto;
     border-radius: 35px;
     border: 2px solid #FF8030;
-    margin: 0 auto;
 }
 
 .icon-lamp {
@@ -68,81 +68,77 @@ h4 {
 }
 
 h2 {
-    font-size: 20px;
-    color: #333333;
     margin: 29px 0;
     font-weight: 700;
+    font-size: 20px;
+    color: #333333;
 }
 
 p {
+    font-weight: 400;
     font-size: 14px;
     color: #86878B;
-    font-weight: 400;
 }
 
 .bottom-section {
-    height: 322px;
     background: url(../img/background.jpeg) no-repeat center / cover;
 }
 
-.black-bg {
-    position: absolute;
-    width:100%;
-    height: 322px;
-    background: rgba(0,0,0,0.6);
+.fogging {
+    background-color: rgba(0,0,0,0.6);
 }
 
 .bottom-title {
+    padding-top: 76px;
+    font-weight: 400;
     font-size: 36px;
     color: #FFFFFF;
-    font-weight: 400;
-    padding-top: 76px;
 }
 
-.bottom-line {background: #ffffff;}
+.bottom-line {
+    background: #ffffff;
+}
 
 .bottom-text {
-    font-family: 'Raleway', sans-serif; 
-    font-size: 16px;
     font-weight: 300;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif; 
     color: #FFFFFF;
     opacity: 0.8;
 }
 
 button {
-    width: 135px;
-    height: 42px;
-    background: transparent;
-    border-color: #FFFFFF;
+    margin: 33px auto 63px;
+    padding: 15px 33px 14px 31px;
+
     font-size: 15px;
     font-weight: 600;
     color: #FFFFFF;
-    margin: 33px auto 63px;
+
+    background: transparent;
+    border-color: #FFFFFF;
 }
 /*Footer
 =======================================================*/
 footer {
     width: 100%;
-    height: 101px;
-    background: #000000;
     padding-top: 0;
+    background: #000000;
 }
 
 nav {
     margin: 0 auto;
     padding-top: 39px;
-    height: 62px;
 }
 
 .icon-link {
     display: inline-block;
     margin: 0 10px;
-   
 } 
 
-#footer-text {
-    padding-top: 15px;
-    font-size: 12px;
+.footer-text {
+    padding: 15px;
     font-weight: 400;
+    font-size: 12px;
     line-height: 9px;
 }
